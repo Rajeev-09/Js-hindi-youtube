@@ -6,7 +6,7 @@ let score = "33abc";
 
 let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log (valueInNumber);
 
 
 /*
