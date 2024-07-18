@@ -1,6 +1,8 @@
 // there are two type of datatype is that mean how can be access the data from memory management and put into the data
 
-// primitive Datatype esma swallow copy milti the data ke liye agar change bhi hota h toh voh copy ma hi toh h
+// primitive Datatype
+
+// 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -11,13 +13,11 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 9007199254740991n;
 
-// 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
-
-// Refrence(Non Primitive) esma original copy milti h 
+// Refrence(Non Primitive)
 
 // Array, Objects, Functions, 
 
@@ -32,8 +32,8 @@ const myFunction = function () {
     console.log("Hello World");
 }
 
-console.log(myFunction);
-console.log(typeof myFunction);
+// console.log(myFunction);
+// console.log(typeof myFunction);
 // agar function ka typeof nklte hn toh voh object f(x) hota h object f(x)
 
 
@@ -41,3 +41,34 @@ console.log(typeof myFunction);
 
 
 // js is a dynamic type language that mean it not introduce the type 
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive), 
+// Heap (Non-Primitive) koi bhi update or change voh original value ma hota h
+
+let myName = "Rajeev Rawat"
+let anotherName = myName
+anotherName = "Ayush Rawat"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+    Email : "user@gmail.com",
+    upi : "user@oksbi"
+}
+
+let anotherUser = userOne
+
+anotherUser.Email = "rajeevrawat210@gmail.com"
+
+console.log(userOne.Email);
+console.log(anotherUser.Email);
