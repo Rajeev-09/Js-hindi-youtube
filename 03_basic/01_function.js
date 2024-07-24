@@ -34,4 +34,35 @@ function userNameMessage(userName = "sam") {
 }
 
 // console.log(userNameMessage("Rajeev"));
-console.log(userNameMessage());//output value is undefined
+// console.log(userNameMessage());//output value is undefined
+
+
+function calculateCartPrice(val1,val2,...num1) {// ... is the symbol of spread operator 
+    return num1;
+}
+
+// console.log(calculateCartPrice(200,300,400,1000,3000));
+
+const user = {
+    userName : "Rajeev",
+    price : "199"
+}
+
+function handleObject(anyObject) {
+    console.log(`UserName is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    userName : "Ayush",
+    price : "399"
+})
+
+
+const myNewArray = [200,300,400,500,3900]
+
+function returnSecondValue(getArray) {
+    return getArray[3]
+}
+
+console.log(returnSecondValue(myNewArray));
