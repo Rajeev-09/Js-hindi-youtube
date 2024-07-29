@@ -8,9 +8,10 @@ let myDate = new Date()
 
 // console.log(typeof myDate); 
 
- let myCreatedDate = new Date(2023, 0, 23)
+//  let myCreatedDate = new Date(2023, 0, 23)
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
+let myCreatedDate = new Date("2023-01-14")
+// console.log(myCreatedDate);
 
 let myTimeStamp = Date.now()
 // console.log(myTimeStamp);
@@ -30,4 +31,4 @@ const toLocaleDate = Date.toLocaleString('Default',{
     myDate : "date"
 })
 
-console.log(toLocaleDate);
+// console.log(toLocaleDate);
