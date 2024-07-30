@@ -16,4 +16,4 @@
 
 ( (name) => {                            // that is simple iife
     console.log(`DB connectedToo, ${name}`);
-} )('rajeev')
+} )('rajeev');
