@@ -9,11 +9,12 @@
 
 
 
-(function chai() {                  // that is a named iife 
-    console.log("DB Connected");    
-})();
+// (function chai() {                  // that is a named iife 
+//     console.log("DB Connected");    
+// })();
 
 
-( (name) => {                            // that is simple iife
-    console.log(`DB connectedToo, ${name}`);
-} )('rajeev');
+// ( (name) => {                            // that is simple iife
+//     console.log(`DB connectedToo, ${name}`);
+// } )('rajeev');
+

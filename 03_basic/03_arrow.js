@@ -31,8 +31,8 @@ const chai =  () => {
 
 
 
-// Arrow function 
-// Emplicity Return that mean use of return keyWord that is emplicit return
+//! Arrow function 
+//* Explicity Return that mean use of return keyWord that is emplicit return
 
 
 
@@ -40,11 +40,11 @@ const chai =  () => {
 //     return num1 + num2;
 // } 
 
-// Implicity Return given below that mean don't use of return keyWord that is not use in implicit
+//* Implicity Return given below that mean don't use of return keyWord that is not use in implicit
 
 // const addTwo = (num1,num2) => num1 + num2;
-// const addTwo = (num1,num2) => (num1 + num2); // agar hm sirf bracs ke use krta hn toh return use nhi kr skte thik h
-// baki cruly bracs ma toh use hta h return likna hi pd gya
+// const addTwo = (num1,num2) => (num1 + num2); //* agar hm sirf bracs ke use krta hn toh return use nhi kr skte thik h
+//* baki cruly bracs ma toh use hta h return likna hi pd gya
 
 // agar hm implicity object create krn h toh tab hmko 
 const addTwo = (num1,num2) => ({username:"RAjeev"})

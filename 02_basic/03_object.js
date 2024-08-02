@@ -37,18 +37,19 @@ Jsuser.age = "22"
 // console.log(Jsuser);
 
 Jsuser.greeting = function () {
-    console.log("Hello Js User");  
+    // console.log("Hello Js User");  
 }
 
 Jsuser.greetingtwo = function () {
-    console.log(`Hello Js User, ${this.name}`);  
+    // console.log(`Hello Js User, ${this.name}`);  
 }
 
-console.log(Jsuser.greeting());
-console.log(Jsuser.greetingtwo());
+// console.log(Jsuser.greeting());
+// console.log(Jsuser.greetingtwo());
 
 
 
-
+// Create multiple symbols and add them as keys to an object.
+//  Write a function to log all symbol-keyed properties.
 
 

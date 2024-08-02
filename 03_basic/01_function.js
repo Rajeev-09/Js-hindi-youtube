@@ -9,6 +9,7 @@ function sayMyName(){
 // sayMyName // that is a reference 
 // sayMyName()//that is a exeution
 
+
 function addTwoNumbers(num1,num2){// num1 and num2 is a parameter 
     // console.log(num1 + num2);
 }
