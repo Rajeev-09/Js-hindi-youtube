@@ -19,6 +19,13 @@ for (const greet of greetings) {
 }
 
 
+for (const greet of greetings) {
+    if (greetings == "Hello World") {
+        console.log(greetings.replaceAll(" ",""));
+        // console.log(greetings);
+    }    
+}
+
 // Maps
 
 const map = new Map()
