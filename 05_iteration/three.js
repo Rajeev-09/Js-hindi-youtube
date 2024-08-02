@@ -6,16 +6,15 @@
 
 const arr = [1,2,3,4,5,6]
 
-for (const num of arr) {
-    // console.log(num);
+for (const num of arr) {  // * It is used for value in the forof loop
+    // console.log(arr);
 }
 
 const greetings = "Hello World"  // * kha pe agar hm space ko htna h toh ky krna ho 
+
 for (const greet of greetings) {
-    if (greetings == "") {   
-        console.log('spaceDetected');
-        break;
-    }
+    const removeSpace = greetings.replaceAll(" ","")
+    console.log(removeSpace);  // * HelloWorld
     // console.log(`Each char is ${greet}`);
 }
 
@@ -23,18 +22,18 @@ for (const greet of greetings) {
 // Maps
 
 const map = new Map()
-map.set('IN', 'India')
-map.set('US', 'United States')
-map.set('UK', 'United Kingdom')
-map.set('JAP',' Japan')
-map.set('JAP',' Japan') //*  like that :> there are repeated value in this map
+// map.set('IN', 'India')
+// map.set('US', 'United States')
+// map.set('UK', 'United Kingdom')
+// map.set('JAP',' Japan')
+// map.set('JAP',' Japan') //*  like that :> there are repeated value in this map
 
 // console.log(map);
 
 // * to find this key value in map by the using of destructured of map
 
 for (const [key,value] of map) { //
-    console.log(key, ':-',value);
+    // console.log(key, ':-',value);
 }
 
 
