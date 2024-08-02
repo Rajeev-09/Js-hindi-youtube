@@ -10,20 +10,37 @@ for (const num of arr) {  // * It is used for value in the forof loop
     // console.log(arr);
 }
 
-const greetings = "Hello World"  // * kha pe agar hm space ko htna h toh ky krna ho 
+const greetings = "Hello World"
 
+for (const greet of greetings) {
+    console.log(greetings);
+    
+}
+
+// * kha pe agar hm space ko htna h toh ky krna ho 
+
+//& 1 Tarika 
 for (const greet of greetings) {
     const removeSpace = greetings.replaceAll(" ","")
     console.log(removeSpace);  // * HelloWorld
     // console.log(`Each char is ${greet}`);
 }
 
-
+//& 2 Tarika
 for (const greet of greetings) {
     if (greetings == "Hello World") {
         console.log(greetings.replaceAll(" ",""));
         // console.log(greetings);
     }    
+}
+
+//& 3 Tarika
+for (const greet of greetings) {
+    switch(greetings){
+    }
+        case1: " Hello World"
+        console.log(greetings.replace(" ",""));
+        break;
 }
 
 // Maps
